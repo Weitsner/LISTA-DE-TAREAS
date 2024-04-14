@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>LISTA DE TAREAS</title>
+        <meta name="description" content="">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="perfil">
+                <div id="fecha"></div>
+                <h1>HOLA, BIENVENIDO</h1>
+                <span>Vamos a cumplir tus metas de hoy</span>
+            </div>
+            <div class="agregar_tarea">
+                <input type="text" id="tareas" placeholder="Agregar Tarea">
+                <i id="enter" class="fa-solid fa-circle-plus"></i>
+
+            </div>
+            <div class="seccion_tarea">
+                <h3>Estas son tus tareas pendinetes</h3>
+                <ul id="lista">
+                    <!-- <li>
+                        <i class="fa-regular fa-circle" data="realizado" id="0"></i>
+                        <p class="text">hacer la tarea buena</p>
+                        <i class="fa-solid fa-trash-can" data="eliminado" id="0"></i>
+                    </li> -->
+                </ul>
+            </div>
+
+        </div>
+
+     <script src="script.js"></script>
+    </body>
+</html>

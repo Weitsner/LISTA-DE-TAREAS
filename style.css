@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: #a8ff78;  
+    background: linear-gradient(to bottom, #003973, #E5E5BE);
+    height: 100vh;
+    font-family:open Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 80%;
+    width: 450px;
+    height: 100%;
+    margin: 0 auto;
+    background-color:transparent;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+/*Perfil*/
+
+.perfil h1{
+    color:#E5E5BE;
+    padding: 10px 0;
+    
+
+}
+.perfil span{
+    color: bisque;
+    letter-spacing: 1px;
+
+}
+#fecha{
+    color: #c5f8ff;
+    padding: 50px 0 5px 0;
+
+}
+
+/*agregar tarea*/
+
+.agregar_tarea{
+    background-color: #ffff;
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+    margin: 40px 0;
+
+}
+.agregar_tarea input{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: #ffff;
+
+}
+.agregar_tarea i{
+    font-size: 50px;
+    color: #003973;
+}
+.agregar_tarea i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.agregar_tarea input::placeholder{
+    font-size: 1.1rem;
+    color: #003a7356;
+}
+/*seccion tarea*/
+
+.seccion_tarea h3{
+    color: #00063a;
+    margin-bottom: 20px;
+}
+.seccion_tarea li{
+    display: flex;
+    background: linear-gradient(to bottom, hsla(210, 100%, 23%, 0.63), hsla(210, 100%, 64%, 0.63));
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+    color: #b9d8f8;
+}
+
+.seccion_tarea i{
+    font-size: 25px;
+}
+.seccion_tarea i:hover{
+    color: #11f919;
+    cursor: pointer;
+
+}
+.seccion_tarea >ul p{
+    font-size: 1.2rem;
+}
+.subrayado{
+    text-decoration: line-through;
+    color: #11f9197c;
+}
+.seccion_tarea .fa-trash-can:hover{
+    color: #bd2c2c;
+}
+.fa-circle-check{
+    color: #11f919;
+}
